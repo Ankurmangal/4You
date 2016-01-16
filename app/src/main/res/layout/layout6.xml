@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/q">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/f"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Let your friends and family know u need HELP.
+You are SAFE with us"
+        android:id="@+id/textView16"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#45a28f83"
+        android:textSize="60px"
+        android:textStyle="bold"
+        android:layout_marginBottom="82dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to 4U"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#45a28f83"
+        android:textSize="60px"
+        android:textStyle="bold"
+        android:id="@+id/textView17"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

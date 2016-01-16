@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#ffffffff">
+
+
+    <Button
+        android:id="@+id/button3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEND"
+        android:textSize="@dimen/abc_action_bar_icon_vertical_padding_material"
+        android:layout_marginBottom="49dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#97102670"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:text="              4U"
+        android:id="@+id/textView6"
+        android:background="#97102670"
+        android:textSize="90px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAlignment="center"
+        android:autoText="false"
+        android:textColor="#000"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:src="@drawable/message"
+        android:id="@+id/imageView2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:text="  I am in trouble and                      need your help.
+  Follow the link and   reach me asap..."
+        android:textSize="60px"
+        android:textColor="#8c2a5a81"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/imageView2"
+        android:layout_alignEnd="@+id/imageView2"
+        android:id="@+id/textView" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageButton5"
+        android:src="@drawable/u"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
